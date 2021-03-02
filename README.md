@@ -27,6 +27,9 @@ Step 2: Add References to assembly_valheim.dll, BepInEx.dll, UnityEngine.dll, an
 
 Step 3: Rename Class1.cs to [ModName]Plugin, and extend BaseUnityPlugin. This makes the class into an injected MonoBehaviour.
 
+
+To test your code, build the project. This will create a dll in [Project]/bin/Debug/. Copy this dll to Valheim/BepInEx/plugins and start the game.
+
 #
 
 See [BepInEx Plugin Development](https://bepinex.github.io/bepinex_docs/master/articles/dev_guide/plugin_tutorial/index.html) for more information.
